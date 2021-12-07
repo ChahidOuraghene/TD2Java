@@ -11,7 +11,7 @@ public class Add implements Expr {
 
 		@Override
 		public String toString() {
-			return "Add [expr1=" + expr1 + ", expr2=" + expr2 + "]";
+			return "Add [(" + expr1 +") + (" + expr2+")]";
 		}
 
 		@Override

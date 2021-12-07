@@ -11,7 +11,7 @@ public class Multiplication implements Expr {
 
 		@Override
 		public String toString() {
-			return "Multiplication [expr1=" + expr1 + ", expr2=" + expr2 + "]";
+			return "Add [(" + expr1 +") * (" + expr2+")]";
 		}
 
 		@Override
